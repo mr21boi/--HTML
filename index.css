@@ -1,0 +1,15 @@
+img {
+    width:50px;
+    length:100px
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50px
+    float:left;
+}
+body{
+  background-color: gray;
+}
+input {
+    border: none;
+
+}

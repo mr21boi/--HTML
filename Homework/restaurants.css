@@ -1,0 +1,32 @@
+
+      h1 {
+        text-align: center;
+        font-size: 50px;
+      }
+p, li{
+  font-size: 25px;
+} 
+
+img {
+  width: 200px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+.Hbutton {
+ display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.header2 {
+  flex: 1;  
+  margin-right: center;
+  
+}
