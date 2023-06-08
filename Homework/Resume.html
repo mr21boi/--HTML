@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CResume</title>
+    <style >
+ body {background-color:#647f9b;
+text-align: center;
+}
+h1 { font-weight: bold;
+      font-size: 100px;
+      margin-top: 50px;
+      color: #faebd7;
+
+}
+.timeline {
+      position: relative;
+      max-width: 800px;
+      font-size: 30px;
+      margin-top: 60px;
+    }
+
+    .timeline::after {
+      content: '';
+      position: absolute;
+      width: 2px;
+      background-color:#faebd7;
+      top: 0;
+      bottom: 0;
+      left: 10%;
+      margin-left: -1px;
+    }
+
+    .timeline-item {
+      position: relative;
+      margin-bottom: 50px;
+      padding-left: 15px;
+    }
+
+    .timeline-item::after {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background-color:#faebd7;
+      border-radius: 50%;
+      top: 0;
+      left: 10%;
+      transform: translateX(-50%);
+    }
+
+    .timeline-content {
+      position: relative;
+      margin-left: 80px;
+    }
+
+    .timeline-date {
+      font-weight: bold;
+      margin-bottom: 5px;      
+    }
+
+    .timeline-title {
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #faebd7;
+    }
+
+    .timeline-description {
+      margin-bottom: 20px;
+    }
+    </style>
+</head>
+<body>
+    <h1> Collins Résumé</h1>
+      
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <div class="timeline-date">2023 - Present</div>
+        <div class="timeline-title">Full Stack Developer</div>
+        <div class="timeline-description">As a TTS Full Stack Developer, my role is to learn and apply design, develop, and maintain web applications that encompass both the front-end and back-end components. I am responsible for implementing features, ensuring high performance and responsiveness, and collaborating with the development team to deliver quality software solutions.  </div>
+      </div>
+    </div>
+    
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <div class="timeline-date">2021 - 2022</div>
+        <div class="timeline-title">telecommunications Technician</div>
+        <div class="timeline-description">As a Telecommunications Specialist/Engineer/Technician, my role is to design, implement, maintain, and troubleshoot telecommunications systems and networks. I play a crucial role in ensuring efficient and reliable communication services for individuals and businesses.
+
+        </div>
+      </div>
+    </div>    
+  </div>
+</body>
+</html>
